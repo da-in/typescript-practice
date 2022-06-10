@@ -6,4 +6,9 @@ Repository to Learn TypeScript
 <br/>
 
 ### Contents
-Ch01 [tsc & ts-node](https://github.com/da-in/typescript-practice/tree/main/ch01)
+
+|Chapter|Link|
+|-----------| -------------------------------------|
+|Ch01|[tsc & ts-node](https://github.com/da-in/typescript-practice/tree/main/ch01)  |
+|Ch02-1|[Create TS Project & Package.json](https://github.com/da-in/typescript-practice/tree/main/ch02-1)  |
+|Ch02-2|[module](https://github.com/da-in/typescript-practice/tree/main/ch02-2)  |
