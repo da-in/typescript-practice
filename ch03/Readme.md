@@ -18,3 +18,16 @@
 선언만 존재하고 구현하지 않는다.
 
 ### class
+
+`private`, `public`, `protected` 접근제한자 사용 가능
+
+```
+class Person {
+    private name : string
+}
+//생략시 public 으로 간주
+```
+
+`constructor`는 Typescript의 생성자이면서 동시에 클래스 내에 해당 속성을 선언한 것처럼 작동한다. 다른 객체 지향 언어에서 우리는 생성자를 통해 생성 후 `this.name = name` 과 같이클래스 내 속성에 할당해주어야 했는데 이를 생략하여 코드가 훨씬 간결하다.
+
+`implements`, `extend`
