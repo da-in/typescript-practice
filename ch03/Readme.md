@@ -113,7 +113,7 @@ export interface Person{
 
 <br/>
 
-### 비구조화
+### 비구조화(destructuring)
 
 비구조화는 이의 역으로 위의 예시로는 `Person` 객체의 `name`과 `age`를 불러와서 변수로 사용하는 것이다. `dain`이라는 `Person` 타입의 객체를 만들었다고 가정하면.
 
@@ -124,9 +124,10 @@ let age = dain.age
 
 <br/>
 
-### 비구조화 할당
+### 비구조화 할당(destructuring)
 
 객체, 배열, 튜플에 적용할 수 있고, 얻고자 하는 속성을 중괄호로 묶어 비구조화 할당을 하면 새로 생성된 변수에 각 초기값이 할당된다.
+아래와 같은 사용을 같은 `destructuring` 이지만 비구조화 할당이라고 옮긴다.
 
 ```
 let {name, age} = dain
